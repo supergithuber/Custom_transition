@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA5083E1CD9E13100E9CD4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5083D1CD9E13100E9CD4C /* AppDelegate.swift */; };
+		CCA508401CD9E13100E9CD4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5083F1CD9E13100E9CD4C /* ViewController.swift */; };
+		CCA508431CD9E13100E9CD4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA508411CD9E13100E9CD4C /* Main.storyboard */; };
+		CCA508451CD9E13100E9CD4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA508441CD9E13100E9CD4C /* Assets.xcassets */; };
+		CCA508481CD9E13100E9CD4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA508461CD9E13100E9CD4C /* LaunchScreen.storyboard */; };
+		CCA508531CD9E13100E9CD4C /* gewalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA508521CD9E13100E9CD4C /* gewalaTests.swift */; };
+		CCA5085E1CD9E13100E9CD4C /* gewalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5085D1CD9E13100E9CD4C /* gewalaUITests.swift */; };
+		CCA5086C1CD9F62400E9CD4C /* WWXNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5086B1CD9F62400E9CD4C /* WWXNavigationDelegate.swift */; };
+		CCA5086E1CDA11A800E9CD4C /* WWXTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5086D1CDA11A800E9CD4C /* WWXTransitionAnimator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCA5084F1CD9E13100E9CD4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA508321CD9E13100E9CD4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA508391CD9E13100E9CD4C;
+			remoteInfo = gewala;
+		};
+		CCA5085A1CD9E13100E9CD4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA508321CD9E13100E9CD4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA508391CD9E13100E9CD4C;
+			remoteInfo = gewala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCA5083A1CD9E13100E9CD4C /* gewala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gewala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA5083D1CD9E13100E9CD4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCA5083F1CD9E13100E9CD4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCA508421CD9E13100E9CD4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA508441CD9E13100E9CD4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCA508471CD9E13100E9CD4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCA508491CD9E13100E9CD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA5084E1CD9E13100E9CD4C /* gewalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gewalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA508521CD9E13100E9CD4C /* gewalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gewalaTests.swift; sourceTree = "<group>"; };
+		CCA508541CD9E13100E9CD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA508591CD9E13100E9CD4C /* gewalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gewalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA5085D1CD9E13100E9CD4C /* gewalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gewalaUITests.swift; sourceTree = "<group>"; };
+		CCA5085F1CD9E13100E9CD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA5086B1CD9F62400E9CD4C /* WWXNavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWXNavigationDelegate.swift; sourceTree = "<group>"; };
+		CCA5086D1CDA11A800E9CD4C /* WWXTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWXTransitionAnimator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA508371CD9E13100E9CD4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA5084B1CD9E13100E9CD4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA508561CD9E13100E9CD4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA508311CD9E13100E9CD4C = {
+			isa = PBXGroup;
+			children = (
+				CCA5083C1CD9E13100E9CD4C /* gewala */,
+				CCA508511CD9E13100E9CD4C /* gewalaTests */,
+				CCA5085C1CD9E13100E9CD4C /* gewalaUITests */,
+				CCA5083B1CD9E13100E9CD4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA5083B1CD9E13100E9CD4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA5083A1CD9E13100E9CD4C /* gewala.app */,
+				CCA5084E1CD9E13100E9CD4C /* gewalaTests.xctest */,
+				CCA508591CD9E13100E9CD4C /* gewalaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA5083C1CD9E13100E9CD4C /* gewala */ = {
+			isa = PBXGroup;
+			children = (
+				CCA5083D1CD9E13100E9CD4C /* AppDelegate.swift */,
+				CCA5083F1CD9E13100E9CD4C /* ViewController.swift */,
+				CCA508411CD9E13100E9CD4C /* Main.storyboard */,
+				CCA508441CD9E13100E9CD4C /* Assets.xcassets */,
+				CCA508461CD9E13100E9CD4C /* LaunchScreen.storyboard */,
+				CCA508491CD9E13100E9CD4C /* Info.plist */,
+				CCA5086B1CD9F62400E9CD4C /* WWXNavigationDelegate.swift */,
+				CCA5086D1CDA11A800E9CD4C /* WWXTransitionAnimator.swift */,
+			);
+			path = gewala;
+			sourceTree = "<group>";
+		};
+		CCA508511CD9E13100E9CD4C /* gewalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA508521CD9E13100E9CD4C /* gewalaTests.swift */,
+				CCA508541CD9E13100E9CD4C /* Info.plist */,
+			);
+			path = gewalaTests;
+			sourceTree = "<group>";
+		};
+		CCA5085C1CD9E13100E9CD4C /* gewalaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA5085D1CD9E13100E9CD4C /* gewalaUITests.swift */,
+				CCA5085F1CD9E13100E9CD4C /* Info.plist */,
+			);
+			path = gewalaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA508391CD9E13100E9CD4C /* gewala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA508621CD9E13100E9CD4C /* Build configuration list for PBXNativeTarget "gewala" */;
+			buildPhases = (
+				CCA508361CD9E13100E9CD4C /* Sources */,
+				CCA508371CD9E13100E9CD4C /* Frameworks */,
+				CCA508381CD9E13100E9CD4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gewala;
+			productName = gewala;
+			productReference = CCA5083A1CD9E13100E9CD4C /* gewala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCA5084D1CD9E13100E9CD4C /* gewalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA508651CD9E13100E9CD4C /* Build configuration list for PBXNativeTarget "gewalaTests" */;
+			buildPhases = (
+				CCA5084A1CD9E13100E9CD4C /* Sources */,
+				CCA5084B1CD9E13100E9CD4C /* Frameworks */,
+				CCA5084C1CD9E13100E9CD4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA508501CD9E13100E9CD4C /* PBXTargetDependency */,
+			);
+			name = gewalaTests;
+			productName = gewalaTests;
+			productReference = CCA5084E1CD9E13100E9CD4C /* gewalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCA508581CD9E13100E9CD4C /* gewalaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA508681CD9E13100E9CD4C /* Build configuration list for PBXNativeTarget "gewalaUITests" */;
+			buildPhases = (
+				CCA508551CD9E13100E9CD4C /* Sources */,
+				CCA508561CD9E13100E9CD4C /* Frameworks */,
+				CCA508571CD9E13100E9CD4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA5085B1CD9E13100E9CD4C /* PBXTargetDependency */,
+			);
+			name = gewalaUITests;
+			productName = gewalaUITests;
+			productReference = CCA508591CD9E13100E9CD4C /* gewalaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA508321CD9E13100E9CD4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "吴浠";
+				TargetAttributes = {
+					CCA508391CD9E13100E9CD4C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KYFVDC483X;
+					};
+					CCA5084D1CD9E13100E9CD4C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KYFVDC483X;
+						TestTargetID = CCA508391CD9E13100E9CD4C;
+					};
+					CCA508581CD9E13100E9CD4C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KYFVDC483X;
+						TestTargetID = CCA508391CD9E13100E9CD4C;
+					};
+				};
+			};
+			buildConfigurationList = CCA508351CD9E13100E9CD4C /* Build configuration list for PBXProject "gewala" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA508311CD9E13100E9CD4C;
+			productRefGroup = CCA5083B1CD9E13100E9CD4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA508391CD9E13100E9CD4C /* gewala */,
+				CCA5084D1CD9E13100E9CD4C /* gewalaTests */,
+				CCA508581CD9E13100E9CD4C /* gewalaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA508381CD9E13100E9CD4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA508481CD9E13100E9CD4C /* LaunchScreen.storyboard in Resources */,
+				CCA508451CD9E13100E9CD4C /* Assets.xcassets in Resources */,
+				CCA508431CD9E13100E9CD4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA5084C1CD9E13100E9CD4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA508571CD9E13100E9CD4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA508361CD9E13100E9CD4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA508401CD9E13100E9CD4C /* ViewController.swift in Sources */,
+				CCA5086C1CD9F62400E9CD4C /* WWXNavigationDelegate.swift in Sources */,
+				CCA5086E1CDA11A800E9CD4C /* WWXTransitionAnimator.swift in Sources */,
+				CCA5083E1CD9E13100E9CD4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA5084A1CD9E13100E9CD4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA508531CD9E13100E9CD4C /* gewalaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA508551CD9E13100E9CD4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA5085E1CD9E13100E9CD4C /* gewalaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA508501CD9E13100E9CD4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA508391CD9E13100E9CD4C /* gewala */;
+			targetProxy = CCA5084F1CD9E13100E9CD4C /* PBXContainerItemProxy */;
+		};
+		CCA5085B1CD9E13100E9CD4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA508391CD9E13100E9CD4C /* gewala */;
+			targetProxy = CCA5085A1CD9E13100E9CD4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCA508411CD9E13100E9CD4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA508421CD9E13100E9CD4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA508461CD9E13100E9CD4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA508471CD9E13100E9CD4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA508601CD9E13100E9CD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCA508611CD9E13100E9CD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA508631CD9E13100E9CD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gewala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wu.gewala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCA508641CD9E13100E9CD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gewala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wu.gewala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCA508661CD9E13100E9CD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gewalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wu.gewalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gewala.app/gewala";
+			};
+			name = Debug;
+		};
+		CCA508671CD9E13100E9CD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gewalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wu.gewalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gewala.app/gewala";
+			};
+			name = Release;
+		};
+		CCA508691CD9E13100E9CD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gewalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wu.gewalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gewala;
+			};
+			name = Debug;
+		};
+		CCA5086A1CD9E13100E9CD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gewalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wu.gewalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gewala;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA508351CD9E13100E9CD4C /* Build configuration list for PBXProject "gewala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA508601CD9E13100E9CD4C /* Debug */,
+				CCA508611CD9E13100E9CD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA508621CD9E13100E9CD4C /* Build configuration list for PBXNativeTarget "gewala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA508631CD9E13100E9CD4C /* Debug */,
+				CCA508641CD9E13100E9CD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCA508651CD9E13100E9CD4C /* Build configuration list for PBXNativeTarget "gewalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA508661CD9E13100E9CD4C /* Debug */,
+				CCA508671CD9E13100E9CD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCA508681CD9E13100E9CD4C /* Build configuration list for PBXNativeTarget "gewalaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA508691CD9E13100E9CD4C /* Debug */,
+				CCA5086A1CD9E13100E9CD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA508321CD9E13100E9CD4C /* Project object */;
+}

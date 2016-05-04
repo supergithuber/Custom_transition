@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="itn-LK-S60">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="gewala" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFS-fK-SUx">
+                                <rect key="frame" x="493" y="37" width="70" height="70"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="变身"/>
+                                <connections>
+                                    <segue destination="chN-cv-3Sf" kind="show" identifier="PushSegue" id="YUI-wn-xPA"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="第一张" translatesAutoresizingMaskIntoConstraints="NO" id="xAs-Oq-3vE">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xAs-Oq-3vE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="160" id="7Xk-V3-BiC"/>
+                            <constraint firstItem="DFS-fK-SUx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="HHV-N3-EKV"/>
+                            <constraint firstItem="xAs-Oq-3vE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="I7j-JG-M0g"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DFS-fK-SUx" secondAttribute="trailing" constant="20" id="KKb-eB-f6M"/>
+                            <constraint firstItem="DFS-fK-SUx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Oih-Yh-dTV"/>
+                            <constraint firstItem="DFS-fK-SUx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="S6D-dW-zNJ"/>
+                            <constraint firstItem="xAs-Oq-3vE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="c8h-xP-k2D"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xAs-Oq-3vE" secondAttribute="trailing" constant="160" id="sXY-Bw-daG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DFS-fK-SUx" secondAttribute="trailing" constant="20" id="u3v-nS-X4j"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7Xk-V3-BiC"/>
+                                <exclude reference="sXY-Bw-daG"/>
+                                <exclude reference="HHV-N3-EKV"/>
+                                <exclude reference="KKb-eB-f6M"/>
+                                <exclude reference="S6D-dW-zNJ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="7cn-if-qkN"/>
+                    <connections>
+                        <outlet property="popBtn" destination="DFS-fK-SUx" id="vGm-rn-0vl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1034" y="-49"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QSi-OY-HWa">
+            <objects>
+                <viewController id="chN-cv-3Sf" customClass="ViewController" customModule="gewala" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dbH-bL-iyr"/>
+                        <viewControllerLayoutGuide type="bottom" id="xER-jr-zwi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HJB-xg-U2Z">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRE-bM-oVp">
+                                <rect key="frame" x="489" y="41" width="70" height="70"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="变身"/>
+                                <connections>
+                                    <action selector="popClick:" destination="chN-cv-3Sf" eventType="touchUpInside" id="Dxp-xA-m7T"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="第二张" translatesAutoresizingMaskIntoConstraints="NO" id="51t-dN-Qwm">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.64352181220000004" blue="0.87787206500000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="yRE-bM-oVp" secondAttribute="trailing" constant="20" id="5es-bz-1DF"/>
+                            <constraint firstItem="51t-dN-Qwm" firstAttribute="centerX" secondItem="HJB-xg-U2Z" secondAttribute="centerX" constant="100" id="Kmq-DI-Jra"/>
+                            <constraint firstItem="yRE-bM-oVp" firstAttribute="top" secondItem="dbH-bL-iyr" secondAttribute="bottom" constant="20" id="RzX-4Y-coQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="51t-dN-Qwm" secondAttribute="trailing" constant="160" id="k5C-fn-iFA"/>
+                            <constraint firstItem="51t-dN-Qwm" firstAttribute="centerY" secondItem="HJB-xg-U2Z" secondAttribute="centerY" constant="100" id="lCa-N7-7zq"/>
+                            <constraint firstItem="51t-dN-Qwm" firstAttribute="leading" secondItem="HJB-xg-U2Z" secondAttribute="leadingMargin" constant="160" id="qmh-3p-86H"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="k5C-fn-iFA"/>
+                                <exclude reference="qmh-3p-86H"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="popBtn" destination="yRE-bM-oVp" id="XLu-3h-cr6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D0d-nN-PEV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1034" y="650"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yNC-CX-YHI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="itn-LK-S60" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uTN-lg-SaA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <outlet property="delegate" destination="j1n-gn-6p8" id="CcK-TR-cOK"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fWg-E5-InS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="04H-SC-VP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="j1n-gn-6p8" customClass="WWXNavigationDelegate" customModule="gewala" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="247" y="-49"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="第一张" width="150" height="150"/>
+        <image name="第二张" width="100" height="100"/>
+    </resources>
+</document>
